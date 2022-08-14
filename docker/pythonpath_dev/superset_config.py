@@ -99,7 +99,26 @@ WEBDRIVER_BASEURL_USER_FRIENDLY = WEBDRIVER_BASEURL
 
 SQLLAB_CTAS_NO_LIMIT = True
 
-#
+ROW_LIMIT = 1000000
+SQL_MAX_ROW = 1000000
+MAPBOX_API_KEY ='pk.eyJ1IjoiZmNhZmNhIiwiYSI6ImNrMDN3dWt5bDAxbTgzaHBjOThqODV5azYifQ.hkkob5Xil72pNfucS857ow'
+BABEL_DEFAULT_LOCALE = "fr"
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "es": {"flag": "es", "name": "Spanish"},
+    "it": {"flag": "it", "name": "Italian"},
+    "fr": {"flag": "fr", "name": "French"},
+    "zh": {"flag": "cn", "name": "Chinese"},
+    "ja": {"flag": "jp", "name": "Japanese"},
+    "de": {"flag": "de", "name": "German"},
+    "pt": {"flag": "pt", "name": "Portuguese"},
+    "pt_BR": {"flag": "br", "name": "Brazilian Portuguese"},
+    "ru": {"flag": "ru", "name": "Russian"},
+    "ko": {"flag": "kr", "name": "Korean"},
+    "sl": {"flag": "si", "name": "Slovenian"},
+}
+PUBLIC_ROLE_LIKE = "Gamma"
+FEATURE_FLAGS = {"GENERIC_CHART_AXES": True}
 # Optionally import superset_config_docker.py (which will have been included on
 # the PYTHONPATH) in order to allow for local settings to be overridden
 #
